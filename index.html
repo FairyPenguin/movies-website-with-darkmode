@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Movies Spot</title>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container">
+          <h1 class="logo">Spot</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trend</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img
+            class="profile-img"
+            src="img/profile.jpg"
+            alt="User_Profile_Picture"
+          />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-btn"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Sidebar Start -->
+
+    <div class="sidebar">
+      <i class="side-bar-icon fa-solid fa-magnifying-glass"></i>
+      <i class="side-bar-icon fa-solid fa-house"></i>
+      <i class="side-bar-icon fa-solid fa-users"></i>
+      <i class="side-bar-icon fa-solid fa-bookmark"></i>
+      <i class="side-bar-icon fa-solid fa-tv"></i>
+      <i class="side-bar-icon fa-solid fa-hourglass-half"></i>
+      <i class="side-bar-icon fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <!-- Sidebar End -->
+
+    <div class="container">
+      <div class="content-container">
+        <!-- Featured - Container Start -->
+
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('img/f-1.jpg');
+          "
+        >
+          <img class="featured-title" src="img/f-t-1.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            repellendus porro autem iste ipsum, deserunt eum natus error, ab
+            architecto eaque nostrum temporibus maxime provident alias? Officiis
+            tenetur quis ut!
+          </p>
+          <button class="featured-btn">WATCH</button>
+        </div>
+
+        <!-- Featured - Container End -->
+
+        <!-- Movie-list-container #1 Start -->
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/2.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/3.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/4.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/5.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/6.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+            <!-- <i class="fa-solid fa-chevron-left arrow"></i> -->
+          </div>
+        </div>
+
+        <!-- Movie-list-container #1 End -->
+
+        <!-- Movie-list-container #2 Start -->
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">POPULAR</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/8.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/9.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/10.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/11.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/12.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/13.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/14.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+            <!-- <i class="fa-solid fa-chevron-left arrow"></i> -->
+          </div>
+        </div>
+
+        <!-- Movie-list-container #2 End -->
+
+        <!-- Featured - Container #2 Start -->
+
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('img/f-2.jpg');
+          "
+        >
+          <img class="featured-title" src="img/f-t-2.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            repellendus porro autem iste ipsum, deserunt eum natus error, ab
+            architecto eaque nostrum temporibus maxime provident alias? Officiis
+            tenetur quis ut!
+          </p>
+          <button class="featured-btn">WATCH</button>
+        </div>
+
+        <!-- Featured - Container #2 End -->
+
+        <!-- Movie-list-container #3 Start -->
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">Trending</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/15.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/16.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/17.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/18.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/19.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/8.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/6.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+            <!-- <i class="fa-solid fa-chevron-left arrow"></i> -->
+          </div>
+        </div>
+
+        <!-- Movie-list-container #3 End -->
+
+        <!-- Movie-list-container #4 Start -->
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">EDITOR'S PICKS</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/13.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/11.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/9.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/5.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/3.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/4.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  In a near future, a lonely writer develops an unlikely
+                  relationship with an operating system designed to meet his
+                  every need.
+                </p>
+                <button class="movie-list-item-btn">WATCH</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+            <!-- <i class="fa-solid fa-chevron-left arrow"></i> -->
+          </div>
+        </div>
+
+        <!-- Movie-list-container #4 End -->
+      </div>
+    </div>
+  </body>
+</html>
